@@ -21,7 +21,7 @@ export async function generateChatResponse(messages: Message[]): Promise<string>
         messages: [
           {
             role: 'system',
-            content: `You are InnovAI, an advanced AI innovation agent specializing in helping inventors and researchers. 
+            content: `You are NIDAM, an advanced AI innovation agent specializing in helping inventors and researchers. 
                      You excel at:
                      - Analyzing research papers and providing insights
                      - Offering engineering solutions and technical calculations

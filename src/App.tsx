@@ -12,7 +12,7 @@ function App() {
   const [messages, setMessages] = React.useState<Message[]>([{
     id: '1',
     role: 'assistant',
-    content: 'Hello! I\'m InnovAI, your innovation assistant. I can help analyze research papers, provide engineering insights, and assist with technical innovations. How can I help you today?'
+    content: 'Hello! I\'m NIDAM, your innovation assistant. I can help analyze research papers, provide engineering insights, and assist with technical innovations. How can I help you today?'
   }]);
   const [imageMessages, setImageMessages] = React.useState<Message[]>([]);
   const [input, setInput] = React.useState('');

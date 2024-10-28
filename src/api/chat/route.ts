@@ -22,7 +22,7 @@ export async function POST(req: Request) {
         messages: [
           {
             role: 'system',
-            content: `You are InnovAI, an advanced AI innovation agent specializing in helping inventors and researchers. 
+            content: `You are NIDAM, an advanced AI innovation agent specializing in helping inventors and researchers. 
                      You analyze research papers, provide technical insights, and help with engineering concepts.
                      Your responses should be detailed, technically accurate, and focused on innovation.`
           },

@@ -4,7 +4,7 @@ export interface Message {
   content: string;
 }
 
-export type TabType = 'chat' | 'image';
+export type TabType = 'chat' | 'image' | 'pay';
 
 export interface HeaderProps {
   activeTab: TabType;

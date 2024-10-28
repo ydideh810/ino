@@ -1,4 +1,4 @@
-export type TabType = 'chat' | 'image';
+export type TabType = 'chat' | 'image' | 'pay';
 
 export interface Message {
   id: string;

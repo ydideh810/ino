@@ -1,6 +1,6 @@
 import React from 'react';
-import { Atom, Image } from 'lucide-react';
-import { HeaderProps, TabType } from '../types';
+import { Atom, Image, CreditCard } from 'lucide-react';
+import { HeaderProps, TabType} from '../types';
 
 export function Header({ activeTab, onTabChange }: HeaderProps) {
   const tabs: { id: TabType; icon: React.ReactNode; label: string }[] = [
@@ -10,6 +10,7 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
       icon: <Image className="w-5 h-5" />,
       label: 'Image Generation',
     },
+   
   ];
 
   return (
@@ -37,6 +38,15 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
               ))}
             </div>
           </div>
+          <a
+            href="https://innovai.dev/pricing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-6 py-2 rounded-lg bg-gradient-to-r from-red-500 to-blue-500 hover:from-red-600 hover:to-blue-600 text-white transition-all duration-300 glow"
+          >
+            <CreditCard className="w-5 h-5" />
+            <span>Pricing</span>
+          </a>
         </div>
       </nav>
     </header>

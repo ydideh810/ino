@@ -1,10 +1,10 @@
 import React from 'react';
-import { Brain, Image } from 'lucide-react';
+import { Atom, Image } from 'lucide-react';
 import { HeaderProps, TabType } from '../types';
 
 export function Header({ activeTab, onTabChange }: HeaderProps) {
   const tabs: { id: TabType; icon: React.ReactNode; label: string }[] = [
-    { id: 'chat', icon: <Brain className="w-5 h-5" />, label: 'AI Assistant' },
+    { id: 'chat', icon: <Atom className="w-5 h-5" />, label: 'AI Assistant' },
     {
       id: 'image',
       icon: <Image className="w-5 h-5" />,

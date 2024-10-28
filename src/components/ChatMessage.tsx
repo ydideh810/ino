@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import { User, Bot, Copy, Check } from 'lucide-react';
+import { User, CircuitBoard, Copy, Check } from 'lucide-react';
 import { ChatMessageProps } from '../types';
 
 export function ChatMessage({ message }: ChatMessageProps) {
@@ -31,7 +31,7 @@ export function ChatMessage({ message }: ChatMessageProps) {
           {isUser ? (
             <User className="w-6 h-6 text-red-400" />
           ) : (
-            <Bot className="w-6 h-6 text-grey-400" />
+            <CircuitBoard className="w-6 h-6 text-grey-400" />
           )}
         </div>
         <div className="prose prose-invert max-w-none overflow-hidden">

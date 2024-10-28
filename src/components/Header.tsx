@@ -17,8 +17,8 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
       <nav className="max-w-7xl mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-8">
-            <h1 className="text-2xl font-bold glow-text bg-gradient-to-r from-red-400 via-grey-500 to-black-600 bg-clip-text text-transparent">
-              InnovAI
+            <h1 className="text-2xl font-bold glow-text bg-gradient-to-r from-red-400 via-grey-500 to-red-600 bg-clip-text text-transparent">
+              NIDAM
             </h1>
             <div className="flex space-x-4">
               {tabs.map(({ id, icon, label }) => (

@@ -31,7 +31,7 @@ export function ChatMessage({ message }: ChatMessageProps) {
           {isUser ? (
             <User className="w-6 h-6 text-red-400" />
           ) : (
-            <CircuitBoard className="w-6 h-6 text-grey-400" />
+            <CircuitBoard className="w-6 h-6 text-red-400" />
           )}
         </div>
         <div className="prose prose-invert max-w-none overflow-hidden">
